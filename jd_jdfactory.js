@@ -44,7 +44,7 @@ if ($.isNode()) {
 }
 let wantProduct = ``;//心仪商品名称
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
-const inviteCodes = ['T011t_pwQhgdmgkCjVWnYaS5kRrbA', 'T0205KkcAkRftTyuSUalzJ1tCjVWnYaS5kRrbA', 'T0225KkcRRdN9QHeIk-gl_YPfACjVWnYaS5kRrbA', 'T0225KkcR0pM91aBIhmgxf9bcACjVWnYaS5kRrbA'];
+const inviteCodes = [];
 !(async () => {
   await requireConfig();
   if (!cookiesArr[0]) {
